@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
+// Antônio Costa Satiro de Souza 10723636
 
 #define NUM_OPERACOES 50000000
 #define VALOR_DEPOSITO 5.0

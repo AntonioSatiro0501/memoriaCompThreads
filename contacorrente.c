@@ -5,6 +5,7 @@
 #define NUM_OPERACOES 50000000
 #define VALOR_DEPOSITO 5.0
 #define VALOR_SAQUE 2.0
+// Antônio Costa Satiro de Souza 10723636
 
 double saldo = 1000.00;
 

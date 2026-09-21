@@ -1,8 +1,8 @@
-/* contacorrente_f2.c */
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
+// Antônio Costa Satiro de Souza 10723636
 
 long acertosTotais = 0;
 pthread_mutex_t mutex_carlo = PTHREAD_MUTEX_INITIALIZER;
@@ -18,7 +18,7 @@ void* threadMonteCarlo(void* argumentos) {
     unsigned int seed = args->seed;
 
     for (long i = 0; i < args->pontos; i++) {
-        double x = (double)rand_r(&seed) / RAND_MAX; // 
+        double x = (double)rand_r(&seed) / RAND_MAX; // geração de números aleatórios dividido pelo maior aleatório possível para gerar valor entre [0,1]
         double y = (double)rand_r(&seed) / RAND_MAX;
         if (x * x + y * y <= 1.0)
             acerto++;

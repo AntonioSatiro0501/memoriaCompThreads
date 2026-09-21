@@ -1,3 +1,5 @@
+#Antônio Costa Satiro de Souza 10723636
+
 import time
 
 def contagem_pesada(n):

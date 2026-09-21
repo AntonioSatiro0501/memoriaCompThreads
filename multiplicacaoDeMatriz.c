@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
+// Antônio Costa Satiro de Souza 10723636
 
 typedef struct{ // struct para passagem de argumentos de cada thread
     long *A, *B, *C;

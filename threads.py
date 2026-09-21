@@ -1,3 +1,5 @@
+#Antônio Costa Satiro de Souza 10723636
+
 import time
 import threading
 
